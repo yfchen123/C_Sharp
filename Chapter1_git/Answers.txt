@@ -1,0 +1,29 @@
+1. Visual Studio Code and Visual Studio 2022 are different coding platform, Visual Studio Code is 
+a text editor, and Visual Studio 2022 is an IDE neither are superior to the other one.
+
+2. .NET 5 is later and better than .NET Framework.
+
+3. .NET Standard is an older framework that is used to achieve greater unity in the .NET ecosystem. 
+If you need to share code between legacy systems like .NET Framework and modern systems like .NET
+Core then .NET Standard is required.
+
+4. These languages all have a compiler that translates the source code into IL or Intermediate Language 
+code which the .NET platform supports.
+
+5. A top-level program is a program where the boiler plate such as the main method, and 
+the program class are generated for you. You can use the Environment.GetCommandLineArgs() to get the 
+command line arguments.
+
+6. The entry point of a .NET console app is the Program.cs file. If you are not using a top-level feature
+you need to explictly declare it with:
+The namespace, the class Program, and finally the Main method. 
+
+7. You use dotnet run to build and execute C# source code.
+
+8. In Interactive Notebooks you can combine markdown and C# code blocks to create an open source library,
+prototyping public APIs, or having multi language support within the same tool and notebook file.
+
+9. You would go to the Microsoft C# documentation to look for help on a C# keyword.
+
+10. You would go to StackOverflow and type the error and see if it already has a solution. 
+If it does not, you go to BingAI and ChatGPT to see if they can solve the problem for you. 

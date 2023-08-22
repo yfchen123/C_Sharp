@@ -1,0 +1,55 @@
+1. You can use dotnet --version to discover the C# compiler and language version.
+
+2. The two types of comments in C# are single line comments indicated by // and multi line comments which
+are indicated by the /* and */.
+
+3. A verbatim string treats the whole string as a literal string even special characters like {} or 
+'. An interpolated string lets you use variables in your string and it will show the value of the variable.
+So a verbatim string will treat any variable names as a string value whereas an interpolated string 
+will treat variable names enclosed in {} as variables and will substitute the variable's value there.
+
+4. Floating point and double values cannot be represented exactly so if you try to compare equality
+sometimes it will not work for example if you try to compare 0.3 == 0.1 + 0.2 you will get false, because 
+the value 0.3 and 0.1 cannot be represented exactly as a floating point or double. So not been careful 
+will output the wrong results.
+
+5. You can use the sizeof operator to return the number of bytes a type takes in memory. 
+
+6. You should only use the var keyword when the type is obvious to make the code easier to read 
+and understand.
+
+7. The newest syntax for creating XmlDocument is as follows: XmlDocument xml3 = new();
+
+8. The dynamic type reduces performance and also the compiler cannot check what the type is during build 
+time.
+
+9. You pass the format argument to the Console.WriteLine operation, and more specifically you put the 
+{ index [, alignment]}, you put a positive value in the alignment for right-align. 
+
+10. The space character seperates arguments for a console app. 
+
+11. No, you do not do arithmetic operations on a person's phone number.
+
+12. Yes, a person's height may change overtime so you may do addition on a person's height.
+
+13. Yes, a person gets older overtime so you will change the age overtime as well.
+
+14. Yes, when a person gets promoted you will need to modify the salary or when a person gets a bonus
+you will need to do addition to the salary.
+
+15. No, once a book's ISBN is set it never changes it is final so there is no reason to store it as a 
+number.
+
+16. Yes, you may need to offer discounts in which case you need to do multiplication or you may need to 
+buy multiple of a book.
+
+17. No, the book's shipping weight will never change so there is no reason to store it as a number.
+
+18. Yes, a country's population will change overtime so you may need to do a lot of addition, 
+subtraction and multiplication.
+
+19. Yes, stars may die and new ones may be born from a supernova so you may need to do arithmetic operations
+on the number of stars in the universe.
+
+20. Yes, you may need to hire new employees, fire some employees, and lay off employees so you will need 
+to do arithmetic operations on the number of employees in a business. 
