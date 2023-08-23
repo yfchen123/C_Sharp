@@ -1,0 +1,32 @@
+1. The six types of access modifier keywords are: Private - Member is accessible inside the type only,
+this is the default. Internal - Member is accessible inside the type and any type inside the same assembly.
+Protected - Member is accessible inside the type and any type that inherits from the type. 
+Public - Member is accessible everywhere. Internal Protected - Member is accessible inside the type,
+any type from the same assembly, and any type that inherits from the type. It is equivalent to a 
+fictional access modifier called internal or protected.
+
+2. The difference between static, const, and readonly keywords when applied to a type member are:
+Static keyword means a field only has one value and is shared across all instances, static 
+type members can be changed but const and readonly type members cannot be modified after they are 
+intialized. Readonly fields can get the value from a file or some other program to intialize the value,
+const on the other hand has to be intialized inside the same file and cannot get any values from other 
+files or programs.
+
+3. A constructor intializes the fields of an object when the object is created.
+ 
+4. You should apply the [Flags] attribute to an enum when storing combined values because it combines 
+multiple options into a single value this allows more efficient usage of memory. 
+
+5. The partial keyword is used to split the implementation of a complex class or the work of multiple 
+people into multiple files. 
+
+6. A tuple is an effecient way to combine multiple values into a single unit. 
+
+7. The record keyword indicates that an object is immutable, which means once it is created, it 
+cannot be modified.
+
+8. Overloading means methods with the same name but different number of arguments or signatures. 
+
+9. A field are used to store data, whereas properties are getters and setters for fields.
+
+10. To make method parameters optional, you can assign a default value inside of the method parameter list. 
