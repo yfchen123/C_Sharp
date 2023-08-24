@@ -1,0 +1,24 @@
+1. The maximum number of characters that can be stored in a String variable is 2GB or about 1 billion characters.
+
+2. The SecureString type avoids storing potentially senstive strings as plaintext, so you should use the SecureString type 
+if you are dealing with sensitive information for security reasons.
+
+3. A StringBuilder class is used to concat many strings because it has better performance than the + operator so if you need 
+to concat many strings in an iterator then a StringBuilder class is approiate. 
+
+4. A LinkedList<T> has better performance than a List<T> class when you are inserted elements into the middle of the list constantly,
+so if you are inserting elements into the middle of the list often, consider using a LinkedList<T> class.
+
+5. You use the SortedDictionary<T> class when you need a key,value pair and you have some association between the two instead of 
+a SortedList<T> class.
+
+6. The $ represents the end of a string in Regular Expressions.
+
+7. In a regular expression you represent digits with \d.
+
+8. The official standard for email addresses is too restrictive so it won't allow some email addresses that are in actual use. 
+You would miss a lot of legit email addresses.
+
+9. It outputs rdeen.
+
+10. You can do a simple HTTP GET request on the url to check if it exists. 
