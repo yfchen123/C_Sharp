@@ -1,0 +1,23 @@
+1. A delegate is a pointer to a method's memory address that contains the same signature as the delegate.
+
+2. An event is an action that happens to an object.
+
+3. A derived class inherits the methods from the base class. You use the base keyword to access members of a 
+base class from a derived class. 
+
+4. The is operator checks if an object is a certain type so it is a boolean operator that returns either true or false,
+the as operator casts an object of one type to another type.
+
+5. The sealed keyword is used to prevent a class from been derived from or a method from been overriden.
+
+6. The abstract keyword prevents a class from been instantiated.
+
+7. The virtual keyword allows a member to be overriden.
+
+8. A destructor deallocates memory for an object, whereas a deconstructer assigns a list of variables to a tuple.
+
+9. All exceptions must have one the following three public constructors: public NewException(), 
+public NewException(String), or public NewException(String, Exception)
+
+10. An extension method is a method that allows you to extended sealed types. You define an extension method 
+by making your class static and also adding a this keyword in front of the method parameters you define. 

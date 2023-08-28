@@ -1,0 +1,35 @@
+1. When you divide an int variable by 0, you get an error saying division by constant zero.
+
+2. When you divide a double by 0, you get an error saying division by constant zero.
+
+3. You get an error saying integral constant is too large.
+
+4. x = y++ is a post-increment operator and x = ++y is a pre-increment operator, post-increment increments
+the value of y after it is assigned to x, and pre-increment increments the value of y before it is 
+assigned to x.
+
+5. Break breaks the loop so it would exit the loop, contiune goes to the next iteration of the loop, so you
+don't execute the remaining statements in this iteration of the loops. The return statement would exit 
+the whole method and not execute the rest of the body of the method when used inside of a loop.
+
+6. The three parts of the for loop are the intialization, the termination condition and the increment amount.
+None of the parts are required, if you do a for(;;) it creates an infinite loop.
+
+7. = is used for assignment so if you use the = operator you are assigning something to a variable. 
+== is a comparison operator that checks if two values or variables are equal.
+
+8. Yes it compiles and just hangs the terminal forever since it is an infinite for loop.
+
+9. The _ represents the default case in a switch statement.
+
+10. To make an object enumerated over a foreach statement you must implement the IEnumerator interface.
+
+11. You get an infinite loop because once the value exceeds 255 it wraps back to 0 again. I can wrap the 
+code in a checked statement which will cause it to throw an arithmetic operation resulted in an 
+overflow exception. 
+
+12. y should be 6. x should be 4.
+
+13. y should be 5. x should be 12.
+
+14. y should be 15. x should be 8.
